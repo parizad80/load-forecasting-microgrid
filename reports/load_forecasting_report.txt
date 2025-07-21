@@ -1,0 +1,9 @@
+LSTM Load Forecasting Model Report
+========================================
+Train Samples: 96465
+Test Samples: 24117
+
+MAE: 154.8697
+RMSE: 202.1628
+MAPE: 1.0601
+R2: 0.9932
