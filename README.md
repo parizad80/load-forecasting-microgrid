@@ -5,24 +5,42 @@ This repository presents a comprehensive project on short-term load forecasting 
 
 📁 Project Structure
 
-project_files/
+project_files
+
 ├── AEP_hourly.csv                # Historical hourly load data from AEP
+
 ├── code.py                       # Main Python script with model training and optimization
+
 ├── code1.ipynb                   # Jupyter Notebook version for interactive analysis
-├── models/
-│   └── lstm_load_forecast.h5     # Trained LSTM model file
-├── plots/
-│   ├── load_forecast.png         # Actual vs Predicted load plot
-│   ├── error_distribution.png    # Forecasting error distribution
-│   └── microgrid_load_dr.png     # Load profile before and after DR
-├── predictions/
-│   ├── predictions.csv              # Model predictions vs actual values
-│   ├── microgrid_load_profile.csv   # Original 24-hour microgrid load profile
-│   └── microgrid_load_with_dr.csv  # Load adjusted after DR optimization
-└── reports/
-│   ├── load_forecasting_report.txt # Evaluation metrics for the LSTM model
-│   └── final_project_report.txt     # Summary of forecasting and DR results
+
+├── models
+
+│      └── lstm_load_forecast.h5     # Trained LSTM model file
+
+├── plots
+
+│      ├── load_forecast.png         # Actual vs Predicted load plot
+
+│      ├── error_distribution.png    # Forecasting error distribution
+
+│      └── microgrid_load_dr.png     # Load profile before and after DR
+
+├── predictions
+
+│      ├── predictions.csv              # Model predictions vs actual values
+
+│      ├── microgrid_load_profile.csv   # Original 24-hour microgrid load profile
+
+│      └── microgrid_load_with_dr.csv  # Load adjusted after DR optimization
+
+└── reports
+
+│      ├── load_forecasting_report.txt # Evaluation metrics for the LSTM model
+
+│      └── final_project_report.txt     # Summary of forecasting and DR results
+
 └── README.md
+
 └── README.md
 
 🎯 Project Objectives
