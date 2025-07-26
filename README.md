@@ -64,9 +64,7 @@ project_files
 
 ⚙️ How to Run
 
-1. Clone the repository:
-   git clone https://github.com/your-username/microgrid-load-forecasting.git
-   cd microgrid-load-forecasting
+1. Clone the repository
 
 2. Install dependencies (if needed):
    pip install -r requirements.txt
